@@ -1,5 +1,5 @@
-obj
-libs
+obj/
+libs/
 
 ### C++ template
 # Compiled Object files

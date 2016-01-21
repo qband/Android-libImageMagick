@@ -87,7 +87,7 @@ LOCAL_SRC_FILES := \
 	${TIFF_SRC_PATH}libtiff/tif_dirinfo.c \
 	${TIFF_SRC_PATH}libtiff/tif_lzw.c \
 	${TIFF_SRC_PATH}libtiff/tif_pixarlog.c \
-	${TIFF_SRC_PATH}port/lfind.c 
+	${TIFF_SRC_PATH}port/lfind.c
 
 LOCAL_LDLIBS    := -llog -L../lib -lGLESv1_CM
 
@@ -132,7 +132,7 @@ LOCAL_SRC_FILES := \
     $(FREETYPE_SRC_PATH)src/raster/raster.c \
     $(FREETYPE_SRC_PATH)src/sfnt/sfnt.c \
     $(FREETYPE_SRC_PATH)src/smooth/smooth.c \
-    $(FREETYPE_SRC_PATH)src/truetype/truetype.c 
+    $(FREETYPE_SRC_PATH)src/truetype/truetype.c
 
 LOCAL_LDLIBS    := -llog -L../lib -lGLESv1_CM
 
