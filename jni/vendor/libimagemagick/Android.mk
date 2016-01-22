@@ -89,7 +89,7 @@ LOCAL_SRC_FILES := \
 	${TIFF_SRC_PATH}libtiff/tif_pixarlog.c \
 	${TIFF_SRC_PATH}port/lfind.c
 
-LOCAL_LDLIBS    := -llog -L../lib -lGLESv1_CM
+#LOCAL_LDLIBS    := -llog -L../lib -lGLESv1_CM
 
 
 
@@ -134,7 +134,7 @@ LOCAL_SRC_FILES := \
     $(FREETYPE_SRC_PATH)src/smooth/smooth.c \
     $(FREETYPE_SRC_PATH)src/truetype/truetype.c
 
-LOCAL_LDLIBS    := -llog -L../lib -lGLESv1_CM
+#LOCAL_LDLIBS    := -llog -L../lib -lGLESv1_CM
 
 
 LOCAL_STATIC_LIBRARIES :=  
@@ -197,7 +197,7 @@ LOCAL_SRC_FILES := \
 	${PHYSFS_SRC_PATH}/zlib123/uncompr.c \
 	${PHYSFS_SRC_PATH}/zlib123/zutil.c \
 
-LOCAL_LDLIBS    := -llog -L../lib -lGLESv1_CM
+#LOCAL_LDLIBS    := -llog -L../lib -lGLESv1_CM
 
 
 
@@ -236,7 +236,7 @@ LOCAL_SRC_FILES := \
 	${PNG_SRC_PATH}pngget.c \
 	${PNG_SRC_PATH}pngread.c \
 
-LOCAL_LDLIBS    := -llog -L../lib -lGLESv1_CM
+#LOCAL_LDLIBS    := -llog -L../lib -lGLESv1_CM
 
 
 
@@ -394,7 +394,7 @@ LOCAL_SRC_FILES := \
 	${JASPER_SRC_PATH}src/libjasper/ras/ras_enc.c \
 	${JASPER_SRC_PATH}src/libjasper/mif/mif_cod.c \
 
-LOCAL_LDLIBS    := -llog -L../lib -lGLESv1_CM
+#LOCAL_LDLIBS    := -llog -L../lib -lGLESv1_CM
 
 
 
@@ -631,7 +631,7 @@ LOCAL_SRC_FILES := \
 	$(IMAGE_MAGICK)magick/xml-tree.c \
 	$(IMAGE_MAGICK)magick/xwindow.c \
 
-LOCAL_LDLIBS    := -L$(SYSROOT)/usr/lib -llog
+#LOCAL_LDLIBS    := -L$(SYSROOT)/usr/lib -llog
 
 
 
@@ -678,7 +678,7 @@ LOCAL_SRC_FILES := \
 	magick_QuantizeInfo.c \
 	magick_MagickBitmap.c
 
-LOCAL_LDLIBS    := -L$(SYSROOT)/usr/lib -llog
+#LOCAL_LDLIBS    := -L$(SYSROOT)/usr/lib -llog
 
 
 
