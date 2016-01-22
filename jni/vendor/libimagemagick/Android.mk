@@ -670,7 +670,7 @@ LOCAL_SRC_FILES := \
 	jmagick.c \
 	magick_DrawInfo.c \
 	magick_ImageInfo.c \
-	magick_Magick.c \
+#	magick_Magick.c \
 	magick_MagickImage.c \
 	magick_MagickInfo.c \
 	magick_MontageInfo.c \
