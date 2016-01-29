@@ -631,34 +631,42 @@ LOCAL_SRC_FILES := \
 	$(IMAGE_MAGICK)magick/xml-tree.c \
 	$(IMAGE_MAGICK)magick/xwindow.c \
 	$(IMAGE_MAGICK)wand/animate.c \
-    $(IMAGE_MAGICK)wand/compare.c \
-    $(IMAGE_MAGICK)wand/composite.c \
-    $(IMAGE_MAGICK)wand/conjure.c \
-    $(IMAGE_MAGICK)wand/convert.c \
-    $(IMAGE_MAGICK)wand/deprecate.c \
-    $(IMAGE_MAGICK)wand/display.c \
-    $(IMAGE_MAGICK)wand/drawing-wand.c \
-    $(IMAGE_MAGICK)wand/drawtest.c \
-    $(IMAGE_MAGICK)wand/identify.c \
-    $(IMAGE_MAGICK)wand/import.c \
-    $(IMAGE_MAGICK)wand/magick-image.c \
-    $(IMAGE_MAGICK)wand/magick-property.c \
-    $(IMAGE_MAGICK)wand/magick-wand.c \
-    $(IMAGE_MAGICK)wand/mogrify.c \
-    $(IMAGE_MAGICK)wand/montage.c \
-    $(IMAGE_MAGICK)wand/pixel-iterator.c \
-    $(IMAGE_MAGICK)wand/pixel-wand.c \
-    $(IMAGE_MAGICK)wand/stream.c \
-    $(IMAGE_MAGICK)wand/wand.c \
-    $(IMAGE_MAGICK)wand/wandtest.c \
-    $(IMAGE_MAGICK)wand/wand-view.c \
+	$(IMAGE_MAGICK)wand/compare.c \
+	$(IMAGE_MAGICK)wand/composite.c \
+	$(IMAGE_MAGICK)wand/conjure.c \
+	$(IMAGE_MAGICK)wand/convert.c \
+	$(IMAGE_MAGICK)wand/deprecate.c \
+	$(IMAGE_MAGICK)wand/display.c \
+	$(IMAGE_MAGICK)wand/drawing-wand.c \
+	$(IMAGE_MAGICK)wand/drawtest.c \
+	$(IMAGE_MAGICK)wand/identify.c \
+	$(IMAGE_MAGICK)wand/import.c \
+	$(IMAGE_MAGICK)wand/magick-image.c \
+	$(IMAGE_MAGICK)wand/magick-property.c \
+	$(IMAGE_MAGICK)wand/magick-wand.c \
+	$(IMAGE_MAGICK)wand/mogrify.c \
+	$(IMAGE_MAGICK)wand/montage.c \
+	$(IMAGE_MAGICK)wand/pixel-iterator.c \
+	$(IMAGE_MAGICK)wand/pixel-wand.c \
+	$(IMAGE_MAGICK)wand/stream.c \
+	$(IMAGE_MAGICK)wand/wand.c \
+	$(IMAGE_MAGICK)wand/wandtest.c \
+	$(IMAGE_MAGICK)wand/wand-view.c \
 
 
 #LOCAL_LDLIBS    := -L$(SYSROOT)/usr/lib -llog
 
 LOCAL_EXPORT_C_INCLUDES := \
 	$(LOCAL_PATH)/$(IMAGE_MAGICK) \
-
+	$(LOCAL_PATH)/$(IMAGE_MAGICK)magick \
+	$(LOCAL_PATH)/${PNG_SRC_PATH} \
+	$(LOCAL_PATH)/$(FREETYPE_SRC_PATH)include \
+	$(LOCAL_PATH)/$(FREETYPE_SRC_PATH)src \
+	$(LOCAL_PATH)/${TIFF_SRC_PATH}libtiff/ \
+	$(LOCAL_PATH)/${JPEG_SRC_PATH} \
+	$(LOCAL_PATH)/${PHYSFS_SRC_PATH} \
+	$(LOCAL_PATH)/$(WEBP_SRC_PATH)src \
+	$(LOCAL_PATH)/${JASPER_SRC_PATH}src/libjasper/include \
 
 LOCAL_STATIC_LIBRARIES := \
     libpngo \
